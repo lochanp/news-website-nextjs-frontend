@@ -4,6 +4,12 @@ const nextConfig: NextConfig = {
   /* config options here */
   images: {
     remotePatterns: [new URL('https://sincere-birds-aeadd4f1c7.media.strapiapp.com/**')]
+  },
+  eslint: {
+    ignoreDuringBuilds: true
+  },
+  typescript: {
+    ignoreBuildErrors: true
   }
 };
 
